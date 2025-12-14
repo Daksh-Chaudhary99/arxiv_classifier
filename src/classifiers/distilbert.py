@@ -30,7 +30,7 @@ class DistilBERTClassifier(BaseClassifier):
     ):
         """
         Args:
-            model_id: Can be a HF Hub ID OR a Volume path (e.g., "/data/distilbert-arxiv-final")
+            model_id: Can be a HF Hub ID OR a Volume path
         """
         self.batch_size = batch_size
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")

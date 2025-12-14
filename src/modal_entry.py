@@ -2,7 +2,7 @@ import modal
 import sys
 import os
 
-# 1. Define the Volume (Must match where train.py saved the model)
+# 1. Define the Volume
 vol = modal.Volume.from_name("arxiv-models")
 
 # 2. Define the Cloud Environment
