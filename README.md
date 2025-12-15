@@ -1,4 +1,4 @@
-# 📑 Hybrid ArXiv Classifier: BERT vs. LLM (LoRA)
+# Hybrid ArXiv Classifier: BERT vs. LLM (LoRA)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)
@@ -88,4 +88,5 @@ src/
 │   └── inference_lora.py
 ├── factory.py         # Strategy Pattern implementation
 └── interfaces.py      # Abstract Base Classes (The Contract)
+
 
